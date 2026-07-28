@@ -1,6 +1,7 @@
 ## Project Overview              
 This project analyzes NovaBank's consumer loan portfolio to identify the key drivers of loan default and profile high-risk borrowers. The insights support data-driven credit risk management, enabling financial institutions to improve lending decisions and mitigate potential credit losses.  
-### Dashboard <img width="1310" height="737" alt="credit-risk-dashboard-preview" src="https://github.com/user-attachments/assets/597b5fa1-9612-4901-b302-07deb57b1ae0" />
+### Dashboard                                   
+<img width="1310" height="737" alt="credit-risk-dashboard-preview" src="https://github.com/user-attachments/assets/597b5fa1-9612-4901-b302-07deb57b1ae0" />
                            
 | Resource | Description | Access |
 |----------|-------------|--------|
