@@ -1,6 +1,8 @@
 ## Project Overview              
 This project analyzes NovaBank's consumer loan portfolio to identify key drivers of loan default and profile high-risk borrowers. The insights support data-driven credit risk management by helping financial institutions improve lending decisions and reduce potential credit losses.  
+Dashboard Preview: [![Dashboard Preview](Dashboard/dashboard-preview.png)](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D)
 Live Dashboard: **[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D)**
+Dashboard Report (PDF): [PDF Dashboard Report](Dashboard/Credit_Risk_Dashboard.pdf)
       
 **Dataset**
 - **33,000** consumer loan records
