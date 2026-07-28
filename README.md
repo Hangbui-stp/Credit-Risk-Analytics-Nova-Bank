@@ -7,7 +7,7 @@ This project analyzes NovaBank's consumer loan portfolio to identify the key dri
 | **Resource** | **Description** | **Access** |
 |----------|-------------|--------|
 | Live Dashboard | Interactive Power BI dashboard | [Open](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D) |
-| Dashboard Report | Exported PDF version of the dashboard | [Download PDF](Dashboard/Credit_Risk_Dashboard.pdf) |
+| Dashboard Report | Exported PDF version of the dashboard | [Download PDF](Dashboard/Credit%20Risk%20Dashboard.pdf) |
       
 **Dataset**
 - **33,000** consumer loan records
