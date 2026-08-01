@@ -64,13 +64,13 @@ Three questions drive the analysis:
 **3. Key Findings**
 | # | Finding | Number |
 |---|---------|--------|
-| 1 | **Portfolio baseline** — overall default rate | **21.8%** (7,107 of 32,574 loans) |
-| 2 | **Exposure at risk** — defaulted principal vs total | **$77M** of **$312M** |
-| 3 | **Grade cliff at C→D** — default rate jumps sharply between grade C and D, not gradually across grades | see Page 1 |
-| 4 | **DTI breakpoint at 0.40** — default rate rises slowly below a loan-to-income ratio of 0.40, then steepens above it | see Page 2 |
+| 1 | **Portfolio baseline**: overall default rate | **21.8%** (7,107 of 32,574 loans) |
+| 2 | **Exposure at risk**: defaulted principal vs total | **$77M** of **$312M** |
+| 3 | **Grade cliff at C→D**: default rate jumps sharply between grade C and D, not gradually across grades | see Page 1 |
+| 4 | **DTI breakpoint at 0.40**: default rate rises slowly below a loan-to-income ratio of 0.40, then steepens above it | see Page 2 |
 | 5 | **Debt consolidation is the riskiest purpose** | **28.6%** default rate vs 21.8% baseline |
-| 6 | **Concentrated risk segment** — the flagged high-risk segment is a small slice of the book but carries a disproportionate share of losses | **10.4%** of loans → **29.4%** of defaults |
-| 7 | **Geography is not a driver** — default rates are statistically flat across US / UK / Canada | see Page 1 |
+| 6 | **Concentrated risk segment**: the flagged high-risk segment is a small slice of the book but carries a disproportionate share of losses | **10.4%** of loans → **29.4%** of defaults |
+| 7 | **Geography is not a driver**: default rates are statistically flat across US / UK / Canada | see Page 1 |
 
 ### Recommendations
 - Apply stricter review to applications with **loan-to-income ≥ 0.40**, the point where the risk curve changes slope.   
