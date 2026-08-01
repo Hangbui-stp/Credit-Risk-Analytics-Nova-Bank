@@ -102,4 +102,4 @@ Source: Xóm Data
 
 ## Author
 **Bùi Thu Hằng** — Data Analyst, focused on banking and financial services                       
-[You Can Reach Me At] ([LinkedIn](https://www.linkedin.com/in/buithuhang/)) · [Email](mailto:hangbui.bda@gmail.com)
+You Can Reach Me At [LinkedIn](https://www.linkedin.com/in/buithuhang/) and [Email](mailto:hangbui.bda@gmail.com)
