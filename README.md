@@ -101,5 +101,5 @@ Source: Xóm Data
 ---
 
 ## Author
-**Bùi Thu Hằng** — Data Analyst, focused on banking and financial services                       
+**Bùi Thu Hằng** - Data Analyst                       
 You Can Reach Me At [LinkedIn](https://www.linkedin.com/in/buithuhang/) and [Email](mailto:hangbui.bda@gmail.com)
