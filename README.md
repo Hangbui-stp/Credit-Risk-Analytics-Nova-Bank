@@ -9,7 +9,7 @@ End-to-end analytics pipeline on a 32,574-loan portfolio: Python cleaning and ED
 
 **▶ [Open the live dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D)**  ·  [Download PDF dashboard](Dashboard/Credit%20Risk%20Dashboard.pdf)
 
-**1. Business Problem**            
+## 1. Business Problem                
 A retail lender needs to know where its default risk is concentrated so it can tighten underwriting without shrinking the book more than necessary.       
 Three questions drive the analysis:            
 - Which loan grades, purposes and borrower profiles default most?
@@ -61,7 +61,7 @@ Three questions drive the analysis:
 
 <sub>Click any image to view it full size.</sub>
                
-**3. Key Findings**
+## 3. Key Findings       
 | # | Finding | Number |
 |---|---------|--------|
 | 1 | **Portfolio baseline**: overall default rate | **21.8%** (7,107 of 32,574 loans) |
