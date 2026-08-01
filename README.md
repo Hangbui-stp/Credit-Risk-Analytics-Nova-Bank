@@ -1,6 +1,20 @@
 ## Credit Risk Analytics — Loan Portfolio Default Analysis              
 End-to-end analytics pipeline on a 32,574-loan portfolio: Python cleaning and EDA → SQL Server data layers → Power BI executive dashboard.             
-Identifies which borrower segments drive default risk and quantifies the exposure at stake. The insights support data-driven credit risk management, enabling financial institutions to improve lending decisions and mitigate potential credit losses.  
+Identifies which borrower segments drive default risk and quantifies the exposure at stake. The insights support data-driven credit risk management, enabling financial institutions to improve lending decisions and mitigate potential credit losses.    
+**1. Business Problem**            
+A retail lender needs to know where its default risk is concentrated so it can tighten underwriting without shrinking the book more than necessary.       
+Three questions drive the analysis:            
+- Which loan grades, purposes and borrower profiles default most?
+- Is there a debt-to-income threshold where risk changes behaviour?
+- Can we define a high-risk segment small enough to act on, but large enough to matter?                  
+***Dataset***
+- **33,000** consumer loan records
+- Markets: United States, Canada, and the United Kingdom                
+**2. Business Objective**
+- Identify the key factors associated with loan default
+- Profile high-risk customer segments
+- Support more effective credit approval decisions
+- Reduce default risk and improve portfolio quality
 ### Dashboard   
 **Page 1 — Overview**          
 <img width="1310" height="737" alt="credit-risk-dashboard-preview" src="https://github.com/user-attachments/assets/12f516e3-441b-4ec0-a27e-e981aa4477dd" />                
@@ -14,25 +28,7 @@ Identifies which borrower segments drive default risk and quantifies the exposur
 | **Resource** | **Description** | **Access** |
 |--------------|-----------------|------------|
 | Live Dashboard | Interactive Power BI dashboard | [Open](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D) |
-| Dashboard Report | Exported PDF version of the dashboard | [Open](Dashboard/Credit%20Risk%20Dashboard.pdf) |
-
-**1. Business Problem**
-A retail lender needs to know where its default risk is concentrated so it can tighten underwriting without shrinking the book more than necessary.       
-Three questions drive the analysis:            
-- Which loan grades, purposes and borrower profiles default most?
-- Is there a debt-to-income threshold where risk changes behaviour?
-- Can we define a high-risk segment small enough to act on, but large enough to matter?
-
-***Dataset***
-- **33,000** consumer loan records
-- Markets: United States, Canada, and the United Kingdom
-
-**2. Business Objective**
-- Identify the key factors associated with loan default
-- Profile high-risk customer segments
-- Support more effective credit approval decisions
-- Reduce default risk and improve portfolio quality
-
+| Dashboard Report | Exported PDF version of the dashboard | [Open](Dashboard/Credit%20Risk%20Dashboard.pdf) |               
 **3. Key Findings**
 | # | Finding | Number |
 |---|---------|--------|
