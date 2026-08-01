@@ -81,7 +81,7 @@ Three questions drive the analysis:
 ## 4. Architecture
 ```mermaid
 flowchart LR
-    A["Raw CSV<br/>32,581 rows"] --> B["Python<br/>clean + validate"]
+    A["Raw CSV<br/>30,000 rows"] --> B["Python<br/>clean + validate"]
     B --> C["credit_risk_data_clean<br/>staging · 29 cols"]
     B --> D["EDA + rule-based<br/>risk scoring"]
     D --> E["scored.csv<br/>+ risk_flags, segment, bands"]
@@ -95,6 +95,8 @@ flowchart LR
 
 ## 5. Data Note
 This project uses a public dataset for demonstration. Figures reflect the dataset, not any real institution. "NOVA BANK" branding in the dashboard is a fictional label used to present the report as a realistic internal deliverable.
+Source: Xóm Data
+
 
 ---
 
