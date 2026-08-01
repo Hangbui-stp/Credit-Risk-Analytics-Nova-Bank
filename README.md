@@ -1,34 +1,66 @@
 ## Credit Risk Analytics — Loan Portfolio Default Analysis              
-End-to-end analytics pipeline on a 32,574-loan portfolio: Python cleaning and EDA → SQL Server data layers → Power BI executive dashboard.             
-Identifies which borrower segments drive default risk and quantifies the exposure at stake. The insights support data-driven credit risk management, enabling financial institutions to improve lending decisions and mitigate potential credit losses.    
+End-to-end analytics pipeline on a 32,574-loan portfolio: Python cleaning and EDA → SQL Server data layers → Power BI executive dashboard. Identifies which borrower segments drive default risk and quantifies the exposure at stake, supporting data-driven credit decisions and loss mitigation.     
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL_Server-2022-CC2927?logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-Desktop-F2C811?logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
+</p>
+
+**▶ [Open the live dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D)**  ·  [Download PDF report](Dashboard/Credit%20Risk%20Dashboard.pdf)
+
 **1. Business Problem**            
 A retail lender needs to know where its default risk is concentrated so it can tighten underwriting without shrinking the book more than necessary.       
 Three questions drive the analysis:            
 - Which loan grades, purposes and borrower profiles default most?
 - Is there a debt-to-income threshold where risk changes behaviour?
-- Can we define a high-risk segment small enough to act on, but large enough to matter?                  
-***Dataset***
-- **33,000** consumer loan records
-- Markets: United States, Canada, and the United Kingdom                
-**2. Business Objective**
+- Can we define a high-risk segment small enough to act on, but large enough to matter?
+
+**Objectives**
 - Identify the key factors associated with loan default
 - Profile high-risk customer segments
 - Support more effective credit approval decisions
 - Reduce default risk and improve portfolio quality
-### Dashboard   
-**Page 1 — Overview**          
-<img width="1310" height="737" alt="credit-risk-dashboard-preview" src="https://github.com/user-attachments/assets/12f516e3-441b-4ec0-a27e-e981aa4477dd" />                
-**Page 2 — Borrower Profile**              
-<img width="1307" height="736" alt="credit-risk-borrower-profile" src="https://github.com/user-attachments/assets/0fca38a3-ec5d-4b33-8da2-5196f1574fb8" />
-**Page 3 — Risk Segmentation**                
-<img width="1245" height="695" alt="credit-risk-segmentation" src="https://github.com/user-attachments/assets/da186903-9a74-4de2-8932-0c8b26231385" />
-**Page 4 - Characteristics & Pricing**               
-<img width="1243" height="694" alt="credit-risk-pricing" src="https://github.com/user-attachments/assets/41cdbab7-e840-40f0-822d-35533a02d217" />
 
-| **Resource** | **Description** | **Access** |
-|--------------|-----------------|------------|
-| Live Dashboard | Interactive Power BI dashboard | [Open](https://app.powerbi.com/view?r=eyJrIjoiYTNlZjliNTQtMjdjMy00ODExLWI0ODgtMDg5MmM0OTI0YTRhIiwidCI6IjVlMTU4ZTJhLTA1OTYtNGE2Yy04ODAxLTM1MDJhZWY0NTYzZiIsImMiOjEwfQ%3D%3D) |
-| Dashboard Report | Exported PDF version of the dashboard | [Open](Dashboard/Credit%20Risk%20Dashboard.pdf) |               
+**Dataset** 
+- **33,000** consumer loan records
+- Markets: United States, Canada, and the United Kingdom                
+
+## 2. Dashboard
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/user-attachments/assets/12f516e3-441b-4ec0-a27e-e981aa4477dd">
+        <img src="https://github.com/user-attachments/assets/12f516e3-441b-4ec0-a27e-e981aa4477dd" width="100%" alt="Overview"/>
+      </a>
+      <br/><sub><b>Page 1 — Overview</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/user-attachments/assets/0fca38a3-ec5d-4b33-8da2-5196f1574fb8">
+        <img src="https://github.com/user-attachments/assets/0fca38a3-ec5d-4b33-8da2-5196f1574fb8" width="100%" alt="Borrower Profile"/>
+      </a>
+      <br/><sub><b>Page 2 — Borrower Profile</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/user-attachments/assets/da186903-9a74-4de2-8932-0c8b26231385">
+        <img src="https://github.com/user-attachments/assets/da186903-9a74-4de2-8932-0c8b26231385" width="100%" alt="Risk Segmentation"/>
+      </a>
+      <br/><sub><b>Page 3 — Risk Segmentation</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/user-attachments/assets/41cdbab7-e840-40f0-822d-35533a02d217">
+        <img src="https://github.com/user-attachments/assets/41cdbab7-e840-40f0-822d-35533a02d217" width="100%" alt="Characteristics and Pricing"/>
+      </a>
+      <br/><sub><b>Page 4 — Characteristics &amp; Pricing</b></sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Click any image to view it full size.</sub>
+               
 **3. Key Findings**
 | # | Finding | Number |
 |---|---------|--------|
@@ -47,7 +79,6 @@ Three questions drive the analysis:
 - Do not spend policy effort on country-level segmentation — it carries no signal in this portfolio.    
 
 ## 4. Architecture
-
 ```mermaid
 flowchart LR
     A["Raw CSV<br/>32,581 rows"] --> B["Python<br/>clean + validate"]
@@ -57,16 +88,16 @@ flowchart LR
     E --> F["loans_scored<br/>serving · 37 cols"]
     C --> F
     F --> G["sql/queries.sql<br/>14 business queries"]
-    F --> H["Power BI<br/>3-page dashboard"]
+    F --> H["Power BI<br/>4-page dashboard"]
 ```
 
 **Two-layer design.** `credit_risk_data_clean` is the immutable staging table (cleaned, nothing derived). `loans_scored` is the serving table that carries the derived risk columns. Every downstream consumer — SQL queries, Power BI, the notebooks — reads from `loans_scored`, so all three surfaces report identical numbers. Single source of truth.
 
-### Data Note
+## 5. Data Note
 This project uses a public dataset for demonstration. Figures reflect the dataset, not any real institution. "NOVA BANK" branding in the dashboard is a fictional label used to present the report as a realistic internal deliverable.
 
 ---
 
 ## Author
 **<<Bùi Thu Hằng>>** — Data Analyst, focused on banking and financial services
-[LinkedIn](<<[LINK](https://www.linkedin.com/in/buithuhang/)>>) · [Email](mailto:hangbui.bda@gmail.com)
+[You Can Reach Me At](<<[LinkedIn](https://www.linkedin.com/in/buithuhang/)>>) · [Email](mailto:hangbui.bda@gmail.com)
